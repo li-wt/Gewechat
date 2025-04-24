@@ -177,15 +177,6 @@ docker update --restart=always gewe
 - 5、使用者必须搭建服务到同省服务器或者电脑里方可正常使用
 - 6、本框架面向个人娱乐使用，请勿用于任何商用场景
 
-## 交流群：
-
-<p align="center">
-  <img src="mine.jpg" width="300px" height="300px" alt=" Logo">
-</p>
-<p align="center">
- 添加好友备注GW加群交流
-</p>
-
 ## 后续有新版本如何更新
 
 ### 更新流程
