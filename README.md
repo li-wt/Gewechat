@@ -102,7 +102,17 @@ systemctl enable docker.service
 ```
 mkdir -p /root/temp
 docker run -itd -v /root/temp:/root/temp -p 2531:2531 -p 2532:2532 --privileged=true --name=gewe gewe /usr/sbin/init
+
+
+
+docker run -itd -v /root/temp:/root/temp \
+                -v /etc/localtime:/etc/localtime:ro \
+                -v /etc/timezone:/etc/timezone:ro \
+                --dns 8.8.8.8 \
+-p 2531:2531 -p 2532:2532 --privileged=true --name=gewe registry.cn-chengdu.aliyuncs.com/tu1h/wechotd:alpine
 ```
+
+
 
 3、将容器设置成开机运行
 
